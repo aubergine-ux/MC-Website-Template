@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background-color: #1a1a1a;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 80px;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+p {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.server {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 12px 30px;
+    border-radius: 12px;
+    border: 2px solid #fd942c;
+    font-size: 20px;
+    color: #fd942c;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+    cursor: pointer;
+}
+
+.server:hover {
+    transform: translateY(-6px);
+    border-color: #ffad5b;
+}
+
+.urls {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.urls a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #fd942c;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 3px solid rgb(148, 70, 6);
+    transition: all 0.2s ease;
+}
+
+.urls a:hover {
+    background-color: #e27d18;
+    transform: translateY(-6px);
+    border-bottom-width: 4px;
+    box-shadow: 0 6px 20px rgba(253, 148, 44, 0.5);
+}
+
+.leaderboard {
+    width: 90%;
+    max-width: 600px;
+    margin: 5px auto;
+    border-collapse: collapse;
+    background-color: rgba(51, 51, 51, 0.85);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8ppx 24px rgba(0, 0, 0, 0.5);
+}
+
+.leaderboard th {
+    background-color: #fd942c;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 16px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.leaderboard td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.leaderboard tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.03); 
+}
+
+.leaderboard tr:hover {
+    background-color: rgba(253, 148, 44, 0.1); 
+}
+
+.avatar {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    margin-right: 12px;
+    border-radius: 4px;
+}
+
+.banner {
+    position: fixed;
+    inset: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2)), url("background.jpg");
+    background-size: cover;
+    background-position: center ;
+    filter: blur(7px);
+    transform: scale(1.05);
+    z-index: -1;
+}
