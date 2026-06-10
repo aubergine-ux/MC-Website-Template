@@ -15,8 +15,8 @@ A modern responsive landing page template designed for Minecraft PvP & Competiti
 
 ## Setup
 
-1. Clone the repo and open `index.html` annd `leaderboards.html` in your browser
-2. Replace the placeholders in `index.html`, `leaderboards.html`, and `style.css`:
+1. Clone the repo and open `index.html` annd `leaderboard.html` in your browser
+2. Replace the placeholders in `index.html`, `leaderboard.html`, and `style.css`:
 3. To modify the theme, open `style.css` and adjust your hex colors.
 
 ## 📄 License
@@ -24,4 +24,5 @@ Open source under the [MIT License](LICENSE).
 
 ---
 MC Skin Hosting Powered By [MC-Heads](https://mc-heads.net).
+<br>
 Made with ❤️ by [AubergineUX](https://github.com/Aubergine-UX)
